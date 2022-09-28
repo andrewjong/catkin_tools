@@ -32,7 +32,7 @@ Configuring Workspaces
 View the current configuration:
   - ``catkin config``
 
-Setting and unsetting CMake options:
+Setting and unsetting CMake options (make sure to input these options directly and not surround them with quotes):
   - ``catkin config --cmake-args -DENABLE_CORBA=ON -DCORBA_IMPLEMENTATION=OMNIORB``
   - ``catkin config --no-cmake-args``
 
